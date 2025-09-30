@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+  color: #fff;
+}
+
+.tab-content {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.tab-content.active {
+  display: block !important;
+  opacity: 1;
+}
+
+.tab-content.d-none {
+  display: none !important;
+}
+
+.card img {
+  border: 3px solid white;
+  border-radius: 30px;
+}
